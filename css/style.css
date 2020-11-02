@@ -1,6 +1,6 @@
 /* 
  * style.css
- * yul.zulhilmi.id
+ * yuly.zulhilmi.id
  * 30 Oktober 2020
  */
 html, body {
@@ -8,7 +8,7 @@ html, body {
 }
 body {
   margin: 0;
-  font-family: 'Parisienne', cursive;
+  font-family: 'Roboto', cursive;
   /* font-family: 'Dancing Script', cursive; */
 }
 
