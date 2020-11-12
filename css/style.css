@@ -8,8 +8,8 @@ html, body {
 }
 body {
   margin: 0;
-  font-family: 'Parisienne', cursive;
-  /* font-family: 'Dancing Script', cursive; */
+  /* font-family: 'Parisienne', cursive; */
+  font-family: 'Dancing Script', cursive;
 }
 
 .container {
