@@ -3,6 +3,6 @@ var app = new Vue({
   data: {
     nama_depan: "Yuly",
     nama_belakang: "Rizky Amelia.",
-    question: "Kita LDR yuk?",
+    question: "Kita nikah yuk?",
   },
 });
