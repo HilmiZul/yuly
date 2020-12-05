@@ -12,15 +12,18 @@
 <body>
 
   <div class="container" id="app">
-    <p><strong>{{ nama_depan }}</strong>, {{ question }}</p>
+    <!-- <p><strong>{{ nama_depan }}</strong>, {{ question }}</p> -->
+    <div class="inner-text">
+      <p>at some point in life, you need to accept the fact that...<br><br>
+        <strong>SOME PEOPLE WILL STAY IN YOUR HEART</strong>,<br><br> but not in your life.</p>
+    </div>
     <audio loop autoplay id="audio">
       <source src="audio/losing-heart.mp3" type="audio/mpeg">
     </audio>
   </div>
 
-  <script> document.getElementById('audio').play(); </script>
-  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
-  <script src="js/app.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+  <script src="js/app.js"></script> -->
 </body>
 
 </html>

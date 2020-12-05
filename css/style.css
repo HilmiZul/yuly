@@ -12,7 +12,7 @@ body {
   font-family: 'Dancing Script', cursive;
 }
 
-.container {
+/* .container {
   background: linear-gradient(270deg, #63ae8e, #6393ae, #ae6396, #9063ae);
   background: linear-gradient(270deg, #9063ae, #6393ae);
   background-size: 600% 600%;
@@ -36,7 +36,7 @@ body {
   0%{background-position:0% 50%}
   50%{background-position:100% 50%}
   100%{background-position:0% 50%}
-}
+} */
 
 .container {
   height: 100%;
@@ -45,13 +45,19 @@ body {
   align-items: center;
   align-content: center;
   margin: 0;
-  /* background: url('../img/yz.png') no-repeat center center fixed;
-  background-size: cover; */
+  background: url('../img/yz.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container .inner-text {
+  max-width: 900px;
 }
 
 p {
   font-size: 5vmin;
   color: #ffffff;
+  padding: 30px;
+  text-align: center;
 }
 
 p strong {
